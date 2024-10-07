@@ -59,4 +59,18 @@ if (result) {
 }
 
 
+//5
 
+const Nam = prompt("Імя");
+
+const Email = prompt("ваша пошта ");
+
+const Password = prompt("ваш пароль");
+
+
+
+if(Nam.length >= 3 && Email.includes("@") && Email.includes(".") && Password.length >= 6) {
+    alert("приемного користування")
+} else {
+    alert("ні")
+}
